@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  IntroductionViewController.swift
 //  Spedu
 //
 //  Created by Hazimi Asyraf on 4/24/18.
@@ -8,16 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var g4pTitle: UILabel!
-    @IBOutlet weak var learningDisabilitiesButton: UIButton!
-    @IBOutlet weak var occupationalTherapistButton: UIButton!
-    @IBOutlet weak var handwritingButton: UIButton!
-    
+class IntroductionViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Learning Disabilities"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        let homeButton = UIBarButtonItem(image: UIImage(named: "home"), style: .done, target: self, action: #selector(exitToHome))
+        self.navigationItem.rightBarButtonItem = homeButton
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -25,11 +23,14 @@ class ViewController: UIViewController {
         backItem.title = ""
         navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+    }
+    
+    func exitToHome() {
+        self.navigationController?.popToRootViewController(animated: true)
     }
 
 }
-

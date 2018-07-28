@@ -12,6 +12,45 @@
 		9F36B4BF20900F8200E27F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4BD20900F8200E27F84 /* Main.storyboard */; };
 		9F36B4C120900F8300E27F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4C020900F8300E27F84 /* Assets.xcassets */; };
 		9F36B4C420900F8300E27F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4C220900F8300E27F84 /* LaunchScreen.storyboard */; };
+		9F36B4CC2090170B00E27F84 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4CB2090170B00E27F84 /* IntroductionViewController.swift */; };
+		9F36B4CE2090174B00E27F84 /* LDTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4CD2090174B00E27F84 /* LDTypesViewController.swift */; };
+		9F36B4D020902B1E00E27F84 /* LDInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4CF20902B1E00E27F84 /* LDInformationViewController.swift */; };
+		9F36B4D22094920700E27F84 /* OccupationalTherapistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4D12094920700E27F84 /* OccupationalTherapistViewController.swift */; };
+		9F36B4D42094921600E27F84 /* HandwritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4D32094921600E27F84 /* HandwritingViewController.swift */; };
+		9F36B4D62097F00500E27F84 /* ActivitiesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4D52097F00500E27F84 /* ActivitiesListViewController.swift */; };
+		9F36B4D82097FE5B00E27F84 /* ActivitySubtypeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4D72097FE5B00E27F84 /* ActivitySubtypeListViewController.swift */; };
+		9F36B4DA20981B9100E27F84 /* ActivityInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4D920981B9100E27F84 /* ActivityInfoViewController.swift */; };
+		9F36B4DC20983D5F00E27F84 /* ActivitySubSubtypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4DB20983D5F00E27F84 /* ActivitySubSubtypeViewController.swift */; };
+		9F36B4DE209B7E7F00E27F84 /* EnvironmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4DD209B7E7F00E27F84 /* EnvironmentInfoViewController.swift */; };
+		9F36B4E2209BD07000E27F84 /* OccupationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4E1209BD07000E27F84 /* OccupationInfoViewController.swift */; };
+		9F36B4E8209BDAA700E27F84 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36B4E7209BDAA700E27F84 /* SwiftGif.swift */; };
+		9F36B4EA209BDFDC00E27F84 /* AnimalImitatingWalk.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4E9209BDFDC00E27F84 /* AnimalImitatingWalk.gif */; };
+		9F36B4FC209BE5B700E27F84 /* Lacing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4EB209BE5B400E27F84 /* Lacing.gif */; };
+		9F36B4FD209BE5B700E27F84 /* SnapCard.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4EC209BE5B400E27F84 /* SnapCard.gif */; };
+		9F36B4FE209BE5B700E27F84 /* WallPainting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4ED209BE5B400E27F84 /* WallPainting.gif */; };
+		9F36B4FF209BE5B700E27F84 /* Maze.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4EE209BE5B400E27F84 /* Maze.gif */; };
+		9F36B500209BE5B700E27F84 /* TransferCookies.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4EF209BE5B400E27F84 /* TransferCookies.gif */; };
+		9F36B501209BE5B700E27F84 /* FillContainer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F0209BE5B500E27F84 /* FillContainer.gif */; };
+		9F36B502209BE5B700E27F84 /* GuessMe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F1209BE5B500E27F84 /* GuessMe.gif */; };
+		9F36B503209BE5B700E27F84 /* CrumplePaper.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F2209BE5B500E27F84 /* CrumplePaper.gif */; };
+		9F36B504209BE5B700E27F84 /* LetsRecall.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F3209BE5B500E27F84 /* LetsRecall.gif */; };
+		9F36B505209BE5B700E27F84 /* BeADrummer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F4209BE5B600E27F84 /* BeADrummer.gif */; };
+		9F36B506209BE5B700E27F84 /* HiddenPictures.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F5209BE5B600E27F84 /* HiddenPictures.gif */; };
+		9F36B507209BE5B700E27F84 /* RingToss.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F6209BE5B600E27F84 /* RingToss.gif */; };
+		9F36B508209BE5B700E27F84 /* CuttingScissor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F7209BE5B600E27F84 /* CuttingScissor.gif */; };
+		9F36B509209BE5B700E27F84 /* DrawingBrush.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F8209BE5B600E27F84 /* DrawingBrush.gif */; };
+		9F36B50A209BE5B700E27F84 /* FindMarble.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4F9209BE5B600E27F84 /* FindMarble.gif */; };
+		9F36B50B209BE5B700E27F84 /* ThrowingBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4FA209BE5B600E27F84 /* ThrowingBall.gif */; };
+		9F36B50C209BE5B700E27F84 /* Pat-A-Cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F36B4FB209BE5B700E27F84 /* Pat-A-Cake.gif */; };
+		9FAE49CC20BB39C10078913B /* BallNet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49CB20BB39C10078913B /* BallNet.gif */; };
+		9FAE49CF20BB3A560078913B /* CoinContainer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49CD20BB3A550078913B /* CoinContainer.gif */; };
+		9FAE49D020BB3A560078913B /* MarbleTracking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49CE20BB3A560078913B /* MarbleTracking.gif */; };
+		9FAE49D220BB3ACB0078913B /* Dart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D120BB3ACB0078913B /* Dart.gif */; };
+		9FAE49D820BB3C160078913B /* PlayDough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D320BB3C150078913B /* PlayDough.gif */; };
+		9FAE49D920BB3C160078913B /* PoundingClay.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D420BB3C150078913B /* PoundingClay.gif */; };
+		9FAE49DA20BB3C160078913B /* ButtoningSnake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D520BB3C150078913B /* ButtoningSnake.gif */; };
+		9FAE49DB20BB3C160078913B /* BuildingBlock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D620BB3C160078913B /* BuildingBlock.gif */; };
+		9FAE49DC20BB3C160078913B /* PencilGrasp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE49D720BB3C160078913B /* PencilGrasp.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +61,45 @@
 		9F36B4C020900F8300E27F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F36B4C320900F8300E27F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F36B4C520900F8300E27F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F36B4CB2090170B00E27F84 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		9F36B4CD2090174B00E27F84 /* LDTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDTypesViewController.swift; sourceTree = "<group>"; };
+		9F36B4CF20902B1E00E27F84 /* LDInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDInformationViewController.swift; sourceTree = "<group>"; };
+		9F36B4D12094920700E27F84 /* OccupationalTherapistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupationalTherapistViewController.swift; sourceTree = "<group>"; };
+		9F36B4D32094921600E27F84 /* HandwritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingViewController.swift; sourceTree = "<group>"; };
+		9F36B4D52097F00500E27F84 /* ActivitiesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesListViewController.swift; sourceTree = "<group>"; };
+		9F36B4D72097FE5B00E27F84 /* ActivitySubtypeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySubtypeListViewController.swift; sourceTree = "<group>"; };
+		9F36B4D920981B9100E27F84 /* ActivityInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoViewController.swift; sourceTree = "<group>"; };
+		9F36B4DB20983D5F00E27F84 /* ActivitySubSubtypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySubSubtypeViewController.swift; sourceTree = "<group>"; };
+		9F36B4DD209B7E7F00E27F84 /* EnvironmentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentInfoViewController.swift; sourceTree = "<group>"; };
+		9F36B4E1209BD07000E27F84 /* OccupationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupationInfoViewController.swift; sourceTree = "<group>"; };
+		9F36B4E7209BDAA700E27F84 /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		9F36B4E9209BDFDC00E27F84 /* AnimalImitatingWalk.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimalImitatingWalk.gif; sourceTree = "<group>"; };
+		9F36B4EB209BE5B400E27F84 /* Lacing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lacing.gif; sourceTree = "<group>"; };
+		9F36B4EC209BE5B400E27F84 /* SnapCard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SnapCard.gif; sourceTree = "<group>"; };
+		9F36B4ED209BE5B400E27F84 /* WallPainting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WallPainting.gif; sourceTree = "<group>"; };
+		9F36B4EE209BE5B400E27F84 /* Maze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Maze.gif; sourceTree = "<group>"; };
+		9F36B4EF209BE5B400E27F84 /* TransferCookies.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TransferCookies.gif; sourceTree = "<group>"; };
+		9F36B4F0209BE5B500E27F84 /* FillContainer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FillContainer.gif; sourceTree = "<group>"; };
+		9F36B4F1209BE5B500E27F84 /* GuessMe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GuessMe.gif; sourceTree = "<group>"; };
+		9F36B4F2209BE5B500E27F84 /* CrumplePaper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CrumplePaper.gif; sourceTree = "<group>"; };
+		9F36B4F3209BE5B500E27F84 /* LetsRecall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LetsRecall.gif; sourceTree = "<group>"; };
+		9F36B4F4209BE5B600E27F84 /* BeADrummer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BeADrummer.gif; sourceTree = "<group>"; };
+		9F36B4F5209BE5B600E27F84 /* HiddenPictures.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HiddenPictures.gif; sourceTree = "<group>"; };
+		9F36B4F6209BE5B600E27F84 /* RingToss.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RingToss.gif; sourceTree = "<group>"; };
+		9F36B4F7209BE5B600E27F84 /* CuttingScissor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CuttingScissor.gif; sourceTree = "<group>"; };
+		9F36B4F8209BE5B600E27F84 /* DrawingBrush.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DrawingBrush.gif; sourceTree = "<group>"; };
+		9F36B4F9209BE5B600E27F84 /* FindMarble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FindMarble.gif; sourceTree = "<group>"; };
+		9F36B4FA209BE5B600E27F84 /* ThrowingBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ThrowingBall.gif; sourceTree = "<group>"; };
+		9F36B4FB209BE5B700E27F84 /* Pat-A-Cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Pat-A-Cake.gif"; sourceTree = "<group>"; };
+		9FAE49CB20BB39C10078913B /* BallNet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BallNet.gif; sourceTree = "<group>"; };
+		9FAE49CD20BB3A550078913B /* CoinContainer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CoinContainer.gif; sourceTree = "<group>"; };
+		9FAE49CE20BB3A560078913B /* MarbleTracking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MarbleTracking.gif; sourceTree = "<group>"; };
+		9FAE49D120BB3ACB0078913B /* Dart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dart.gif; sourceTree = "<group>"; };
+		9FAE49D320BB3C150078913B /* PlayDough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PlayDough.gif; sourceTree = "<group>"; };
+		9FAE49D420BB3C150078913B /* PoundingClay.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PoundingClay.gif; sourceTree = "<group>"; };
+		9FAE49D520BB3C150078913B /* ButtoningSnake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ButtoningSnake.gif; sourceTree = "<group>"; };
+		9FAE49D620BB3C160078913B /* BuildingBlock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BuildingBlock.gif; sourceTree = "<group>"; };
+		9FAE49D720BB3C160078913B /* PencilGrasp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PencilGrasp.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +134,91 @@
 			children = (
 				9F36B4B920900F8200E27F84 /* AppDelegate.swift */,
 				9F36B4BB20900F8200E27F84 /* ViewController.swift */,
+				9F36B4E7209BDAA700E27F84 /* SwiftGif.swift */,
+				9F36B4E3209BD99E00E27F84 /* LearningDisabilities */,
+				9F36B4E4209BD9AF00E27F84 /* OccupationalTherapist */,
+				9F36B4E5209BD9C100E27F84 /* Handwriting */,
+				9F36B4E6209BD9E200E27F84 /* Activities */,
+				9F36B50D209BE5BD00E27F84 /* Gifs */,
 				9F36B4BD20900F8200E27F84 /* Main.storyboard */,
 				9F36B4C020900F8300E27F84 /* Assets.xcassets */,
 				9F36B4C220900F8300E27F84 /* LaunchScreen.storyboard */,
 				9F36B4C520900F8300E27F84 /* Info.plist */,
 			);
 			path = Spedu;
+			sourceTree = "<group>";
+		};
+		9F36B4E3209BD99E00E27F84 /* LearningDisabilities */ = {
+			isa = PBXGroup;
+			children = (
+				9F36B4CB2090170B00E27F84 /* IntroductionViewController.swift */,
+				9F36B4CD2090174B00E27F84 /* LDTypesViewController.swift */,
+				9F36B4CF20902B1E00E27F84 /* LDInformationViewController.swift */,
+			);
+			path = LearningDisabilities;
+			sourceTree = "<group>";
+		};
+		9F36B4E4209BD9AF00E27F84 /* OccupationalTherapist */ = {
+			isa = PBXGroup;
+			children = (
+				9F36B4D12094920700E27F84 /* OccupationalTherapistViewController.swift */,
+			);
+			path = OccupationalTherapist;
+			sourceTree = "<group>";
+		};
+		9F36B4E5209BD9C100E27F84 /* Handwriting */ = {
+			isa = PBXGroup;
+			children = (
+				9F36B4D32094921600E27F84 /* HandwritingViewController.swift */,
+			);
+			path = Handwriting;
+			sourceTree = "<group>";
+		};
+		9F36B4E6209BD9E200E27F84 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				9F36B4D52097F00500E27F84 /* ActivitiesListViewController.swift */,
+				9F36B4D72097FE5B00E27F84 /* ActivitySubtypeListViewController.swift */,
+				9F36B4DB20983D5F00E27F84 /* ActivitySubSubtypeViewController.swift */,
+				9F36B4D920981B9100E27F84 /* ActivityInfoViewController.swift */,
+				9F36B4DD209B7E7F00E27F84 /* EnvironmentInfoViewController.swift */,
+				9F36B4E1209BD07000E27F84 /* OccupationInfoViewController.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		9F36B50D209BE5BD00E27F84 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				9F36B4E9209BDFDC00E27F84 /* AnimalImitatingWalk.gif */,
+				9F36B4F4209BE5B600E27F84 /* BeADrummer.gif */,
+				9F36B4F2209BE5B500E27F84 /* CrumplePaper.gif */,
+				9F36B4F7209BE5B600E27F84 /* CuttingScissor.gif */,
+				9F36B4F8209BE5B600E27F84 /* DrawingBrush.gif */,
+				9F36B4F0209BE5B500E27F84 /* FillContainer.gif */,
+				9F36B4F9209BE5B600E27F84 /* FindMarble.gif */,
+				9F36B4F1209BE5B500E27F84 /* GuessMe.gif */,
+				9F36B4F5209BE5B600E27F84 /* HiddenPictures.gif */,
+				9F36B4EB209BE5B400E27F84 /* Lacing.gif */,
+				9F36B4F3209BE5B500E27F84 /* LetsRecall.gif */,
+				9F36B4EE209BE5B400E27F84 /* Maze.gif */,
+				9F36B4FB209BE5B700E27F84 /* Pat-A-Cake.gif */,
+				9F36B4F6209BE5B600E27F84 /* RingToss.gif */,
+				9FAE49D620BB3C160078913B /* BuildingBlock.gif */,
+				9FAE49D520BB3C150078913B /* ButtoningSnake.gif */,
+				9FAE49D720BB3C160078913B /* PencilGrasp.gif */,
+				9FAE49D320BB3C150078913B /* PlayDough.gif */,
+				9FAE49D420BB3C150078913B /* PoundingClay.gif */,
+				9FAE49CD20BB3A550078913B /* CoinContainer.gif */,
+				9FAE49CE20BB3A560078913B /* MarbleTracking.gif */,
+				9FAE49D120BB3ACB0078913B /* Dart.gif */,
+				9F36B4EC209BE5B400E27F84 /* SnapCard.gif */,
+				9F36B4FA209BE5B600E27F84 /* ThrowingBall.gif */,
+				9FAE49CB20BB39C10078913B /* BallNet.gif */,
+				9F36B4EF209BE5B400E27F84 /* TransferCookies.gif */,
+				9F36B4ED209BE5B400E27F84 /* WallPainting.gif */,
+			);
+			path = Gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +279,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F36B4FC209BE5B700E27F84 /* Lacing.gif in Resources */,
+				9F36B508209BE5B700E27F84 /* CuttingScissor.gif in Resources */,
+				9F36B4FF209BE5B700E27F84 /* Maze.gif in Resources */,
+				9FAE49D220BB3ACB0078913B /* Dart.gif in Resources */,
+				9F36B4EA209BDFDC00E27F84 /* AnimalImitatingWalk.gif in Resources */,
+				9F36B509209BE5B700E27F84 /* DrawingBrush.gif in Resources */,
+				9F36B50C209BE5B700E27F84 /* Pat-A-Cake.gif in Resources */,
+				9F36B500209BE5B700E27F84 /* TransferCookies.gif in Resources */,
+				9F36B505209BE5B700E27F84 /* BeADrummer.gif in Resources */,
 				9F36B4C420900F8300E27F84 /* LaunchScreen.storyboard in Resources */,
+				9F36B504209BE5B700E27F84 /* LetsRecall.gif in Resources */,
+				9F36B501209BE5B700E27F84 /* FillContainer.gif in Resources */,
+				9FAE49D820BB3C160078913B /* PlayDough.gif in Resources */,
+				9F36B502209BE5B700E27F84 /* GuessMe.gif in Resources */,
+				9FAE49D020BB3A560078913B /* MarbleTracking.gif in Resources */,
+				9F36B50A209BE5B700E27F84 /* FindMarble.gif in Resources */,
+				9F36B507209BE5B700E27F84 /* RingToss.gif in Resources */,
+				9F36B50B209BE5B700E27F84 /* ThrowingBall.gif in Resources */,
 				9F36B4C120900F8300E27F84 /* Assets.xcassets in Resources */,
+				9F36B503209BE5B700E27F84 /* CrumplePaper.gif in Resources */,
+				9FAE49CC20BB39C10078913B /* BallNet.gif in Resources */,
+				9FAE49CF20BB3A560078913B /* CoinContainer.gif in Resources */,
+				9F36B506209BE5B700E27F84 /* HiddenPictures.gif in Resources */,
+				9FAE49D920BB3C160078913B /* PoundingClay.gif in Resources */,
+				9F36B4FD209BE5B700E27F84 /* SnapCard.gif in Resources */,
+				9FAE49DC20BB3C160078913B /* PencilGrasp.gif in Resources */,
+				9FAE49DB20BB3C160078913B /* BuildingBlock.gif in Resources */,
+				9F36B4FE209BE5B700E27F84 /* WallPainting.gif in Resources */,
+				9FAE49DA20BB3C160078913B /* ButtoningSnake.gif in Resources */,
 				9F36B4BF20900F8200E27F84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +320,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F36B4BC20900F8200E27F84 /* ViewController.swift in Sources */,
+				9F36B4D62097F00500E27F84 /* ActivitiesListViewController.swift in Sources */,
+				9F36B4DE209B7E7F00E27F84 /* EnvironmentInfoViewController.swift in Sources */,
+				9F36B4DC20983D5F00E27F84 /* ActivitySubSubtypeViewController.swift in Sources */,
+				9F36B4CC2090170B00E27F84 /* IntroductionViewController.swift in Sources */,
+				9F36B4D82097FE5B00E27F84 /* ActivitySubtypeListViewController.swift in Sources */,
+				9F36B4D42094921600E27F84 /* HandwritingViewController.swift in Sources */,
+				9F36B4CE2090174B00E27F84 /* LDTypesViewController.swift in Sources */,
+				9F36B4E8209BDAA700E27F84 /* SwiftGif.swift in Sources */,
+				9F36B4DA20981B9100E27F84 /* ActivityInfoViewController.swift in Sources */,
+				9F36B4D22094920700E27F84 /* OccupationalTherapistViewController.swift in Sources */,
 				9F36B4BA20900F8200E27F84 /* AppDelegate.swift in Sources */,
+				9F36B4D020902B1E00E27F84 /* LDInformationViewController.swift in Sources */,
+				9F36B4E2209BD07000E27F84 /* OccupationInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +479,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSB88PGZW;
 				INFOPLIST_FILE = Spedu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hazimiasyraf.Spedu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,14 +498,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSB88PGZW;
 				INFOPLIST_FILE = Spedu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hazimiasyraf.Spedu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
